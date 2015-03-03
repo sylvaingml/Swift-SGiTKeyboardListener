@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E49FE5D01AA5D41700DC47F0 /* SGiTKeyboardListener.h in Headers */ = {isa = PBXBuildFile; fileRef = E49FE5CF1AA5D41700DC47F0 /* SGiTKeyboardListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49FE5D61AA5D41800DC47F0 /* SGiTKeyboardListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49FE5CA1AA5D41700DC47F0 /* SGiTKeyboardListener.framework */; };
+		E49FE5DD1AA5D41800DC47F0 /* SGiTKeyboardListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49FE5DC1AA5D41800DC47F0 /* SGiTKeyboardListenerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E49FE5D71AA5D41800DC47F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49FE5C11AA5D41700DC47F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49FE5C91AA5D41700DC47F0;
+			remoteInfo = SGiTKeyboardListener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E49FE5CA1AA5D41700DC47F0 /* SGiTKeyboardListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGiTKeyboardListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49FE5CE1AA5D41700DC47F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49FE5CF1AA5D41700DC47F0 /* SGiTKeyboardListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGiTKeyboardListener.h; sourceTree = "<group>"; };
+		E49FE5D51AA5D41800DC47F0 /* SGiTKeyboardListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGiTKeyboardListenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49FE5DB1AA5D41800DC47F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49FE5DC1AA5D41800DC47F0 /* SGiTKeyboardListenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGiTKeyboardListenerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49FE5C61AA5D41700DC47F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49FE5D21AA5D41800DC47F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49FE5D61AA5D41800DC47F0 /* SGiTKeyboardListener.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E49FE5C01AA5D41700DC47F0 = {
+			isa = PBXGroup;
+			children = (
+				E49FE5CC1AA5D41700DC47F0 /* SGiTKeyboardListener */,
+				E49FE5D91AA5D41800DC47F0 /* SGiTKeyboardListenerTests */,
+				E49FE5CB1AA5D41700DC47F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49FE5CB1AA5D41700DC47F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49FE5CA1AA5D41700DC47F0 /* SGiTKeyboardListener.framework */,
+				E49FE5D51AA5D41800DC47F0 /* SGiTKeyboardListenerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49FE5CC1AA5D41700DC47F0 /* SGiTKeyboardListener */ = {
+			isa = PBXGroup;
+			children = (
+				E49FE5CF1AA5D41700DC47F0 /* SGiTKeyboardListener.h */,
+				E49FE5CD1AA5D41700DC47F0 /* Supporting Files */,
+			);
+			path = SGiTKeyboardListener;
+			sourceTree = "<group>";
+		};
+		E49FE5CD1AA5D41700DC47F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49FE5CE1AA5D41700DC47F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49FE5D91AA5D41800DC47F0 /* SGiTKeyboardListenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E49FE5DC1AA5D41800DC47F0 /* SGiTKeyboardListenerTests.swift */,
+				E49FE5DA1AA5D41800DC47F0 /* Supporting Files */,
+			);
+			path = SGiTKeyboardListenerTests;
+			sourceTree = "<group>";
+		};
+		E49FE5DA1AA5D41800DC47F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49FE5DB1AA5D41800DC47F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E49FE5C71AA5D41700DC47F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49FE5D01AA5D41700DC47F0 /* SGiTKeyboardListener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E49FE5C91AA5D41700DC47F0 /* SGiTKeyboardListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49FE5E01AA5D41800DC47F0 /* Build configuration list for PBXNativeTarget "SGiTKeyboardListener" */;
+			buildPhases = (
+				E49FE5C51AA5D41700DC47F0 /* Sources */,
+				E49FE5C61AA5D41700DC47F0 /* Frameworks */,
+				E49FE5C71AA5D41700DC47F0 /* Headers */,
+				E49FE5C81AA5D41700DC47F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGiTKeyboardListener;
+			productName = SGiTKeyboardListener;
+			productReference = E49FE5CA1AA5D41700DC47F0 /* SGiTKeyboardListener.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E49FE5D41AA5D41800DC47F0 /* SGiTKeyboardListenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49FE5E31AA5D41800DC47F0 /* Build configuration list for PBXNativeTarget "SGiTKeyboardListenerTests" */;
+			buildPhases = (
+				E49FE5D11AA5D41800DC47F0 /* Sources */,
+				E49FE5D21AA5D41800DC47F0 /* Frameworks */,
+				E49FE5D31AA5D41800DC47F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49FE5D81AA5D41800DC47F0 /* PBXTargetDependency */,
+			);
+			name = SGiTKeyboardListenerTests;
+			productName = SGiTKeyboardListenerTests;
+			productReference = E49FE5D51AA5D41800DC47F0 /* SGiTKeyboardListenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49FE5C11AA5D41700DC47F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "S.G. inTech";
+				TargetAttributes = {
+					E49FE5C91AA5D41700DC47F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E49FE5D41AA5D41800DC47F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E49FE5C41AA5D41700DC47F0 /* Build configuration list for PBXProject "SGiTKeyboardListener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E49FE5C01AA5D41700DC47F0;
+			productRefGroup = E49FE5CB1AA5D41700DC47F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49FE5C91AA5D41700DC47F0 /* SGiTKeyboardListener */,
+				E49FE5D41AA5D41800DC47F0 /* SGiTKeyboardListenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49FE5C81AA5D41700DC47F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49FE5D31AA5D41800DC47F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49FE5C51AA5D41700DC47F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49FE5D11AA5D41800DC47F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49FE5DD1AA5D41800DC47F0 /* SGiTKeyboardListenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E49FE5D81AA5D41800DC47F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49FE5C91AA5D41700DC47F0 /* SGiTKeyboardListener */;
+			targetProxy = E49FE5D71AA5D41800DC47F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E49FE5DE1AA5D41800DC47F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E49FE5DF1AA5D41800DC47F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E49FE5E11AA5D41800DC47F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SGiTKeyboardListener/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E49FE5E21AA5D41800DC47F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SGiTKeyboardListener/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E49FE5E41AA5D41800DC47F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGiTKeyboardListenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E49FE5E51AA5D41800DC47F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGiTKeyboardListenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49FE5C41AA5D41700DC47F0 /* Build configuration list for PBXProject "SGiTKeyboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49FE5DE1AA5D41800DC47F0 /* Debug */,
+				E49FE5DF1AA5D41800DC47F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49FE5E01AA5D41800DC47F0 /* Build configuration list for PBXNativeTarget "SGiTKeyboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49FE5E11AA5D41800DC47F0 /* Debug */,
+				E49FE5E21AA5D41800DC47F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E49FE5E31AA5D41800DC47F0 /* Build configuration list for PBXNativeTarget "SGiTKeyboardListenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49FE5E41AA5D41800DC47F0 /* Debug */,
+				E49FE5E51AA5D41800DC47F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49FE5C11AA5D41700DC47F0 /* Project object */;
+}
