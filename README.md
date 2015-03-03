@@ -17,3 +17,33 @@ You need to provide:
 All you need to do is to create this object. It will take care of the rest.
 A bit less code in your controller and some code you can share among other controllers.
 
+How can you use this class?
+
+Just import the framework:
+
+``` Swift
+import SGiT_KeyboardListener
+```
+
+Then your controller shall declare a variable to keep reference to the listener:
+
+``` Swift
+var keyboardListener: KeyboardListener?
+``` 
+
+Creat the listener when the view is loaded:
+
+```Swift
+override public func viewDidLoad()
+{
+    super.viewDidLoad()
+
+    keyboardListener = KeyboardListener(scrollView: tableView, controller: self) {
+        return self.activeField
+    }
+
+    // to be continued...
+}
+```
+
+And that's all.
