@@ -87,11 +87,11 @@ public class KeyboardListener: NSObject
     dynamic func keyboardWasShown(notification: NSNotification)
     {
         var info = notification.userInfo
-        var keyboardSize = info![ UIKeyboardFrameBeginUserInfoKey]?.CGRectValue().size
+        let keyboardSize = info![ UIKeyboardFrameBeginUserInfoKey]?.CGRectValue.size
         
         let zero = CGFloat(0.0)
         
-        var contentInsets = UIEdgeInsetsMake(
+        let contentInsets = UIEdgeInsetsMake(
             zero, zero,
             keyboardSize!.height, zero
         )
@@ -118,7 +118,7 @@ public class KeyboardListener: NSObject
      */
     dynamic func keyboardWillHide(notification: NSNotification)
     {
-        var insets = initialInsets
+        let insets = initialInsets
         
         scrollView.contentInset = insets;
         scrollView.scrollIndicatorInsets = insets
